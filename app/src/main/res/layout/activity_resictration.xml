@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.medizone.Resictration">
+    <TextView
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MedZon!"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:background="@drawable/facebookbutton"
+            android:text="Sign up with FaceBook"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+        <Button
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#e0523b"
+            android:text="Sign up with Google"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            />
+        <Button
+            android:id="@+id/act_login_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/appred"
+            android:onClick="signupwithmedzone"
+            android:textAllCaps="false"
+            android:text="Sign up with MedZon"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/l"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:onClick="forgetPassword ?"
+                android:text="Already a Member ?" />
+            <Button
+                android:id="@+id/exsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:layout_below="@+id/signup"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/appred"
+                android:fontFamily="sans-serif-light"
+                android:onClick="login"
+                android:text="Signin"
+                android:textAllCaps="false"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

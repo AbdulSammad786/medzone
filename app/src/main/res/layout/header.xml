@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/appred"
+    android:orientation="vertical"
+    >
+<ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/settings"
+        android:layout_marginRight="10dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/power"
+        android:layout_marginRight="50dp"
+        />
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/myimage"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abdul Sammad"
+        android:textSize="14sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:paddingBottom="4dp"
+        android:id="@+id/username"
+        android:layout_above="@+id/email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasae300@gmail.com"
+        android:id="@+id/email"
+        android:gravity="left"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username" />
+
+
+
+</RelativeLayout>

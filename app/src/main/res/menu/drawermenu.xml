@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/fg">
+    <item android:title="Home"
+        android:id="@+id/feeds"
+
+        />
+    </group>
+    <group android:id="@+id/pg">
+    <item android:title="Notifications"
+        android:id="@+id/profile"
+        />
+    </group>
+    <group android:id="@+id/friendsg">
+        <item android:title="Pending Requests"
+            android:id="@+id/friends"
+            />
+    </group>
+    <group android:id="@+id/dg">
+    <item android:title="History"
+        android:id="@+id/dieting"
+        />
+    </group>
+    <group android:id="@+id/workoutg">
+    <item android:title="Settings"
+        android:id="@+id/workout"
+        />
+    </group>
+    <group android:id="@+id/wg">
+        <item android:title="Contact us"
+            android:id="@+id/maleworkoutlibrary"
+            />
+    </group>
+    <group android:id="@+id/fworkoutg">
+        <item android:title="Repost Issue"
+            android:id="@+id/femaleworkoutlibrary"
+            />
+    </group>
+    <group android:id="@+id/articlesg">
+        <item android:title="Logout"
+            android:id="@+id/articles"
+            />
+    </group>
+
+</menu>
